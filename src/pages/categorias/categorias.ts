@@ -28,9 +28,7 @@ export class CategoriasPage {
       .subscribe(response => { 
         this.itens = response;
       },
-      error => {
-        "";
-      }
+      error => {}
     );
   }
 
